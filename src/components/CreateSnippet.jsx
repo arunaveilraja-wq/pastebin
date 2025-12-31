@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { createSnippet } from "../api/snippetApi";
+import { createSnippet } from "../api/SnippetApi";
 
 function CreateSnippet() {
   const [content, setContent] = useState("");
