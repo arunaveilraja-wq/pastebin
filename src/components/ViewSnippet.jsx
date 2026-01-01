@@ -32,3 +32,26 @@ function ViewSnippet() {
 }
 
 export default ViewSnippet;
+
+// import React, { useState } from "react";
+// import { getSnippet } from "../api/SnippetApi";
+
+// const ViewSnippet = () => {
+//   const [id, setId] = useState("");
+//   const [snippet, setSnippet] = useState(null);
+
+//   const handleFetch = async () => {
+//     const response = await getSnippet(id);
+//     setSnippet(response.data);
+//   };
+
+//   return (
+//     <div>
+//       <input value={id} onChange={(e) => setId(e.target.value)} placeholder="Enter snippet ID" />
+//       <button onClick={handleFetch}>Fetch Snippet</button>
+//       {snippet && <pre>{JSON.stringify(snippet, null, 2)}</pre>}
+//     </div>
+//   );
+// };
+
+// export default ViewSnippet;

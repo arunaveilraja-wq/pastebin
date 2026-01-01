@@ -40,3 +40,26 @@ function CreateSnippet() {
 }
 
 export default CreateSnippet;
+
+
+// import React, { useState } from "react";
+// import { createSnippet } from "../api/SnippetApi";
+
+// const CreateSnippet = () => {
+//   const [text, setText] = useState("");
+
+//   const handleSubmit = async () => {
+//     const snippet = { content: text };
+//     const response = await createSnippet(snippet);
+//     console.log("Saved:", response.data);
+//   };
+
+//   return (
+//     <div>
+//       <textarea value={text} onChange={(e) => setText(e.target.value)} />
+//       <button onClick={handleSubmit}>Save Snippet</button>
+//     </div>
+//   );
+// };
+
+// export default CreateSnippet;
